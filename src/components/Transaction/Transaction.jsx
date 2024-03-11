@@ -2,12 +2,13 @@ import React from 'react';
 import { FaEdit } from "react-icons/fa";
 import { FaTrashAlt } from "react-icons/fa";
 
-const Transaction = () => {
+const Transaction = ({transaction}) => {
+    const {name, amount, type} = transaction;
     return (
-        <li className="transaction income">
-            <p>Earned this month</p>
+        <li className={`transaction ${type}`}>
+            <p>{name}</p>
             <div className="right">
-                <p>৳ 100</p>
+                <p>{amount}</p>
                 <button className="link">
                     <FaEdit/>
                 </button>

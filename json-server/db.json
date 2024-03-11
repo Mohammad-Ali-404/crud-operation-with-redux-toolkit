@@ -1,34 +1,40 @@
 {
   "transactions": [
     {
-      "id": "1",
-      "name": "Salary from Google",
+      "id": "1a91",
+      "name": "Mohammad Ali",
       "type": "income",
-      "amount": 1000000
+      "amount": 1000
     },
     {
-      "id": "2",
-      "name": "Family Expenses",
+      "id": "b875",
+      "name": "Mohammad Ali",
+      "type": "income",
+      "amount": 1000
+    },
+    {
+      "id": "60ab",
+      "name": "Rajin",
       "type": "expense",
-      "amount": 200000
+      "amount": 1000
     },
     {
-      "id": "6f89",
+      "id": "a0a7",
+      "name": "anik",
+      "type": "income",
+      "amount": 1100
+    },
+    {
+      "id": "50e1",
+      "name": "anik",
+      "type": "expense",
+      "amount": 1100
+    },
+    {
+      "id": "d6a5",
       "name": "Mohammad Ali",
       "type": "income",
-      "amount": "500"
-    },
-    {
-      "id": "5f22",
-      "name": "Lamborgini",
-      "type": "income",
-      "amount": "1000"
-    },
-    {
-      "id": "f08e",
-      "name": "Mohammad Ali",
-      "type": "income",
-      "amount": 100
+      "amount": 200
     }
   ]
 }
