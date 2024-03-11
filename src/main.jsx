@@ -5,8 +5,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { store } from './Redux/Store';
-import { Provider } from 'react-dedux';
 import router from './Router/routers';
+import { Provider } from 'react-redux';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
