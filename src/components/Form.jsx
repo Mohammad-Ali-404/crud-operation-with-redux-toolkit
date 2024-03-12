@@ -8,8 +8,14 @@ const Form = () => {
     const [name, setName] = useState('')
     const [type, setType] = useState('')
     const [amount, setAmount] = useState('')
+    const [edit, setEdit] = useState(false)
     const dispatch = useDispatch()
     const {isLoading, isError, error} = useSelector(state => state.transaction)
+    const reset = () =>{
+        setName('');
+        setType("");
+        setAmount('')
+    }
     const handleCreate = (e) =>{
         e.preventDefault()
         dispatch(createTransaction({
@@ -17,6 +23,7 @@ const Form = () => {
             type,
             amount: Number(amount)
         }))
+        reset()
     }
 
     return (
